@@ -21,7 +21,7 @@ set_session(sess)
 # Load your trained model
 model = load_model('braintumor1.h5',compile=False)
 
-print('Model loaded. Check http://127.0.0.1:5000/')
+
 
 
 @app.route('/', methods=['GET'])
